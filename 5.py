@@ -1,3 +1,3 @@
-trains = ["托马斯","培西","亨利","蒙太格"]
-trains.pop(2)
-print(trains)
+
+li = ["hello",'seven',["mon",["h","kelly"],'all'],446]
+print(li[4])
