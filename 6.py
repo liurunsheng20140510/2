@@ -1,5 +1,8 @@
 import turtle
-turtle.fillcolor("blue")
-turtle.begin_fill()
-turtle.circle(100)
-turtle.end_fill()
+turtle.forward(100)
+turtle.left(40)
+turtle.forward(100)
+turtle.left(160)
+turtle.forward(190)
+turtle.penup()
+turtle.forward(100)
