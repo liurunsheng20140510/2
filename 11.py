@@ -1,0 +1,43 @@
+import turtle
+import time
+turtle.hideturtle()
+turtle.speed(0)
+turtle.fillcolor("aqua")
+turtle.begin_fill()
+turtle.left(90)
+turtle.forward(200)
+turtle.left(120)
+turtle.forward(200)
+turtle.left(120)
+turtle.forward(200)
+turtle.end_fill()
+turtle.penup()
+turtle.goto(-130,100)
+turtle.dot()
+turtle.goto(86,50)
+
+turtle.setheading(90)
+turtle.pendown()
+turtle.begin_fill()
+turtle.forward(100)
+turtle.left(120)
+turtle.forward(100)
+turtle.left(120)
+turtle.forward(100)
+turtle.end_fill()
+
+a = -220
+t1 = turtle.Turtle()
+while a <= 1:
+    t1.tracer(0,0)
+    t1.clear()
+    t1.hideturtle()
+    t1.fillcolor("lightskyblue")
+    t1.penup()
+    t1.goto(a,70)
+    t1.begin_fill()
+    t1.circle(30)
+    t1.end_fill()
+    t1.update()
+    a -= 10
+    time.sleep(0.1)
