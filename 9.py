@@ -1,0 +1,11 @@
+import turtle
+turtle.pencolor("blue")
+turtle.dot(200)
+turtle.pencolor("yellow")
+turtle.dot(160)
+turtle.pencolor("black")
+turtle.dot(120)
+turtle.pencolor("cyan")
+turtle.dot(80)
+turtle.pencolor("white")
+turtle.dot(40)
