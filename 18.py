@@ -5,6 +5,8 @@ class A:
     def add(self):
         a = open("self.name" + ".txt",a)
         a.white("存入" + self.count)
-    def sell(self):
+        a.close()
+    def self(self):
         a = open("self.name" + ".txt",a)
         a.white("卖出" + self.count)
+        a.close()
